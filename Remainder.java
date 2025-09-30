@@ -6,6 +6,6 @@ import java.util.Scanner;
 	Scanner input = new Scanner(System.in);
 		double number1 = input.nextDouble();
 		double number2 = input.nextDouble();
-		System.out.print(number1/number2);
+		System.out.print(number1%number2);
 	}
 }
